@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tag HEAD e Charsets</title>
+    <style>
+
+        p{
+        color: black;
+        font-family: Arial Black;
+        font-size: 100%;
+        text-align: left;
+        }
+        h1 {
+          text-align: center;
+          color: #d7b661;
+          text-shadow: 1px 1px black;      
+        } 
+        h2 {
+          text-align: center;
+          color: #d7b661;
+          text-shadow: 1px 1px black;      
+        } 
+    
+        h3 {
+          color: black;
+          text-align: center;
+          font-family: arial black;
+        } 
+        
+ table, th, td {
+  border: 1px solid black;
+  background-color: white;
+  font-family: arial black;
+
+}
+
+.divSticky {
+  background-color: black;
+  font-family: Arial Black;
+  font-size: 100%;
+  top: 0%;
+  left: 400%;
+  position: sticky;
+  color: black  
+}
+footer {
+  background-color: black;
+  color: #d7b661;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5%;
+  font-family: arial black;
+}
+          
+        
+        </style>
+</head>
+<body bgcolor="#e6e3db">
+    <div class="divs divSticky"> <h1> HEAD, CHARSET, SYMBOLS e EMOJIS </h1> </div> 
+    <h1>Tag HEAD e Charsets</h1>
+    <h3>Nesta página, vamos explorar os principais conceitos relacionados à tag HEAD e charsets em HTML.</h3>
+    <br>
+    <hr>
+    <h2>Pergunta 1</h2>
+    <p>Qual a utilidade da tag HEAD e quais os elementos HTML que podem ser usados dentro do head da página?</p>
+    <p>A tag HEAD é usada para fornecer informações sobre a página, como o título, charset, metadados, links para estilos CSS e scripts JavaScript. Elementos comuns no HEAD incluem &lt;meta&gt;, &lt;title&gt;, &lt;base&gt;, &lt;link&gt;, &lt;style&gt;, &lt;script&gt; e outros metadados.</p>
+    <br>
+    <hr>
+    <h2>Pergunta 2</h2>
+    <p>Explique a utilidade e o funcionamento das tags meta, title e base. Dê um exemplo da utilização de cada uma delas.</p>
+    <p>A tag &lt;meta&gt; é usada para fornecer metadados sobre a página. Por exemplo:
+    <code>&lt;meta name="description" content="Esta é uma página de exemplo."&gt;</code>
+    A tag &lt;title&gt; define o título da página exibido na aba do navegador:
+    <code>&lt;title&gt;Minha Página de Exemplo&lt;/title&gt;</code>
+    A tag &lt;base&gt; define a URL base para links na página:
+    <code>&lt;base href="https://www.exemplo.com/"&gt;</code></p>
+    <br>
+    <hr>
+
+    <h2>Pergunta 3</h2>
+    <p>O que é um charset? Qual a sua utilidade?</p>
+    <p>Charset (Character Set) define o conjunto de caracteres utilizados em uma página. Define como os caracteres são codificados e exibidos. Ele é essencial para exibir caracteres especiais corretamente e garantir a interpretação correta do texto.</p>
+    <br>
+    <hr>
+
+    <h2>Pergunta 4</h2>
+    <p>Caso o charset não seja definido na página, qual será utilizado por padrão?</p>
+    <p>Se o charset não for especificado, o navegador usará o charset padrão, que geralmente é ISO-8859-1 (também conhecido como Latin-1). No entanto, é recomendável sempre definir o charset explicitamente para evitar problemas de exibição.</p>
+    <br>
+    <hr>
+
+    <h2>Pergunta 5</h2>
+    <p>Fale sobre os charsets UTF-8, ASCII, ANSI e ISO-8859-1.</p>
+    <p>- UTF-8: Suporta uma ampla variedade de caracteres, incluindo caracteres internacionais, é amplamente usado na web.
+    - ASCII: Um conjunto básico de caracteres que inclui letras maiúsculas e minúsculas, números e símbolos.
+    - ANSI: Não é um conjunto de caracteres específico, mas se refere a diferentes conjuntos usados em sistemas Windows.
+    - ISO-8859-1: Também conhecido como Latin-1, inclui caracteres ocidentais, mas não suporta caracteres não latinos.</p>
+    <br>
+    <hr>
+    <h2>Pergunta 6</h2>
+    <p>Explique como se pode usar símbolos e emojis em páginas web e dê exemplos.</p>
+    <p>Para usar símbolos e emojis, você pode usar entidades HTML, como &amp;#128512; para um emoji sorridente. Você também pode copiar e colar símbolos diretamente na página, como ☀️. Além disso, bibliotecas de ícones e emojis, como FontAwesome e EmojiOne, oferecem fontes e classes CSS para facilitar a inserção de símbolos e emojis. Exemplo: &#128512;&#128516;&#128151;</p>
+    <br>
+    <footer>
+        &copy; Pedro Levi Castro Portugal
+    </footer> 
+</body>
+</html>
